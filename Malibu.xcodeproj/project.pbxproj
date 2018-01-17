@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08A262F2200F57940090E4CC /* Attempt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A262F1200F57940090E4CC /* Attempt.swift */; };
+		08A262F3200F57940090E4CC /* Attempt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A262F1200F57940090E4CC /* Attempt.swift */; };
+		08A262F4200F57940090E4CC /* Attempt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A262F1200F57940090E4CC /* Attempt.swift */; };
 		D503D38D1C8DA7730009BDAD /* Serializing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D503D38C1C8DA7730009BDAD /* Serializing.swift */; };
 		D503D38E1C8DA7730009BDAD /* Serializing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D503D38C1C8DA7730009BDAD /* Serializing.swift */; };
 		D503D3901C8DA95B0009BDAD /* JsonSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D503D38F1C8DA95B0009BDAD /* JsonSerializer.swift */; };
@@ -253,6 +256,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08A262F1200F57940090E4CC /* Attempt.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = Attempt.swift; sourceTree = "<group>"; };
 		D500FD111C3AABED00782D78 /* Playground-iOS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-iOS.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D503D38C1C8DA7730009BDAD /* Serializing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Serializing.swift; sourceTree = "<group>"; };
 		D503D38F1C8DA95B0009BDAD /* JsonSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonSerializer.swift; sourceTree = "<group>"; };
@@ -503,6 +507,7 @@
 				D5339AF51D9C6C5900E8A7AD /* RequestStorage.swift */,
 				D5E8EDC21D9D865B0087690A /* RequestCapsule.swift */,
 				D5445A091E3CE16F00445406 /* RequestConvertible.swift */,
+				08A262F1200F57940090E4CC /* Attempt.swift */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -1104,6 +1109,7 @@
 				D51FC8611F73016300D722AD /* ParameterEncoding.swift in Sources */,
 				D51FC8681F73016300D722AD /* MultipartBuilder.swift in Sources */,
 				D51FC8761F73016300D722AD /* MimeType.swift in Sources */,
+				08A262F4200F57940090E4CC /* Attempt.swift in Sources */,
 				D51FC86C1F73016300D722AD /* ContentType.swift in Sources */,
 				D51FC87F1F73016300D722AD /* StringSerializer.swift in Sources */,
 				D51FC8811F73016300D722AD /* StatusCodeValidator.swift in Sources */,
@@ -1188,6 +1194,7 @@
 				D5B965201C922BDC0099D2F9 /* ResponseValidation.swift in Sources */,
 				DAC92A091C7F961900F01940 /* FormURLEncoder.swift in Sources */,
 				DAC92A061C7F90B400F01940 /* Malibu.swift in Sources */,
+				08A262F2200F57940090E4CC /* Attempt.swift in Sources */,
 				D5F357CF1D58BDE500153C41 /* MultipartBuilder.swift in Sources */,
 				DA5B4D0A1C8E59A2004E21ED /* Networking.swift in Sources */,
 				DAC92A391C87B95100F01940 /* StatusCodeValidator.swift in Sources */,
@@ -1272,6 +1279,7 @@
 				D5B965211C922BDC0099D2F9 /* ResponseValidation.swift in Sources */,
 				DAC92A0A1C7F961900F01940 /* FormURLEncoder.swift in Sources */,
 				DAC92A071C7F90B400F01940 /* Malibu.swift in Sources */,
+				08A262F3200F57940090E4CC /* Attempt.swift in Sources */,
 				D5F357D01D58BDE500153C41 /* MultipartBuilder.swift in Sources */,
 				DA5B4D0B1C8E59A2004E21ED /* Networking.swift in Sources */,
 				DAC92A3A1C87B95100F01940 /* StatusCodeValidator.swift in Sources */,

@@ -11,6 +11,7 @@ public enum NetworkError: Error {
   case jsonArraySerializationFailed(response: Response)
   case jsonDictionarySerializationFailed(response: Response)
   case stringSerializationFailed(encoding: UInt, response: Response)
+  case tooManyFailedAttempts(attempts: Int, errors: [Error])
 
   public var reason: String {
     var text: String
@@ -36,6 +37,8 @@ public enum NetworkError: Error {
       text = "No JSON dictionary in response data"
     case .stringSerializationFailed(let encoding, _):
       text = "String could not be serialized with encoding: \(encoding)"
+    case .tooManyFailedAttempts(let attemptCount, _):
+        text = "Request exceeded maximum number of failures (\(attemptCount))"
     }
 
     return NSLocalizedString(text, comment: "")
